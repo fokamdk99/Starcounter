@@ -6,6 +6,7 @@ The easiest way to run Starcounter is to:
 - clone this repository
 - open terminal/powershell and navigate to the folder where docker-compose.yml is stored
 - type ``` docker-compose up ``` (for windows) or ``` sudo docker-compose up ``` (for linux)
+- open the browser and paste the following link: http://127.0.0.1:8001/stars/fokamdk99/ 
 
 There is an alternative, though. You can use virtual environment. For windows, advance with the following instructions (it is assumed that python 3.8 or higher is installed):
 ```
