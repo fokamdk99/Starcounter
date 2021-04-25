@@ -41,7 +41,7 @@ python3 manage.py runserver
 ```
 open the browser and paste the following link: http://127.0.0.1:8000/stars/fokamdk99/
 
-##Testing
+## Testing
 There has been prepared a suit of unit tests. To run them, navigate to the folder where manage.py file is stored and type (for windows):
 ```
 python manage.py test
