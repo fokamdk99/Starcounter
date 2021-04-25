@@ -53,7 +53,11 @@ class Git_handler(View):
         context['message'] = self.message
         return JsonResponse(context)
 
+class Custom404View(View):
+    def dispatch(self, request, *args, **kwargs):
+        return JsonResponse({'message':'go to /stars/user_name/'})
 
 def page_not_found(request, exception=None):
     #return HttpResponse("ni dziala")
-    return HttpResponseRedirect(reverse('list_repos_of_a_user', kwargs={'user_name':'notfound'})) 
+    return HttpResponseRedirect(reverse('list_repos_with_stars')) 
+    #return redirect('list_repos_with_stars')

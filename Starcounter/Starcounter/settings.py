@@ -24,7 +24,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Starcounter.settings")
 SECRET_KEY = 'django-insecure-vf!kf(u7i*+om!rvtwn-wi_6=a7@9kzcd-0l0$r027f^v2tt4g'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     '*'

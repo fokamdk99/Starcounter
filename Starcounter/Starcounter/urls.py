@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import handler404
 from . import settings
+from stars.views import Custom404View
 
 urlpatterns = [
     path('stars/', include('stars.urls')),
@@ -24,4 +25,4 @@ urlpatterns = [
 ]
 
 if not settings.DEBUG:
-    handler404 = 'stars.views.page_not_found'
+    handler404 = Custom404View.as_view()
