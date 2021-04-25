@@ -2,7 +2,7 @@
 Starcounter is a server application which lists one user's repositories and counts total amount of the stars that he/she has earned.
 The program has been written in Python 3.8 and is based on Django framework.
 ## How to start the application
-The easiest way to run Starcounter is to:
+The easiest way to run Starcounter is to open it as a docker container. To do so:
 - clone this repository
 - open terminal/powershell and navigate to the folder where docker-compose.yml is stored
 - type ``` docker-compose up ``` (for windows) or ``` sudo docker-compose up ``` (for linux)
