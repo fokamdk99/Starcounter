@@ -51,3 +51,5 @@ and for linux type:
 python3 manage.py test
 ```
 
+## Extension possibilities
+There are number of possible features that may be added in the future. One issue is that version of the program from commit 2309430 uses so called "unauthenticated user" which is allowed to make only 60 requests per hour to github rest api. Authenticating the user will bump the limit rate to 5000 requests per hour. Another idea is to add methods that will allow to create an issue or enable adding reactions to issue comments.
